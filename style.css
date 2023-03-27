@@ -1,0 +1,66 @@
+.a {color: rgb(36, 142, 158);
+    font-size:25px ;}
+
+.b {color: rgb(186, 55, 55);
+    font-size:20px ;}
+
+.c {color: rgb(55, 101, 186);
+    font-size:30px ;}
+
+.d {color: rgb(186, 55, 168);
+    font-size:10px ;}
+
+.e {color: rgb(94, 255, 255);
+    font-size:2em ;}
+
+.f {color: rgb(247, 255, 25);
+    font-size:3em ;}
+
+.g {color: green;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif ;}
+
+.h { text-align: center;
+     color: aqua;
+     background-color: green;
+     font-weight: thin;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.i { color: rgb(255, 67, 161); 
+     text-shadow: 1px;
+     font-size: 15px;}
+span {font-style: italic ;}
+
+.j{ background-color: green; 
+    color: white;
+    text-align: center;}
+
+.new {color: aqua; 
+    text-decoration: underline;}
+#boss {background-color:aqua; color: rgb(111, 24, 79);}
+
+.group{background-color: aquamarine;}
+
+.diff {color: blue;}
+
+.numbers{ background-color:rgb(248, 162, 248); text-align: center;}
+
+.odd{ color: blueviolet;}
+.even {color: brown;}
+
+.number1 {background-color: pink; font-family: verdana,"Dejavu sans ",sans-serif }
+#number2 {color:rgb(66, 66, 185); font-size: 36px;}
+.number3 {background-color: pink; font-size: 24px;}
+#number4 {background-color: rgb(64, 253, 121); font-weight: bold; font-size: 25px;}
+.number5 {background-color: pink;}
+
+.pic1 {width: 200px; height: 100px;}
+.pic2 {width: 100px; height: 200px;}
+.share {width: 200px; height: 200px;}
+
+#cristiano { background-color: rgb(11, 170, 255); width: 800px; height: 800px; padding: 30px;}
+.cris { text-align: right;margin-right: 50px;}
+.date { text-align: right; margin-right: 50px;}
+ header img { margin: 30px;}
+ main {margin-right: 40px;}
+ footer {text-align: right; margin-top: 100px;}
