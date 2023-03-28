@@ -173,23 +173,28 @@
         </form>
         <hr>
         <br>
-        <h1>Personal information</h1>
+        
         <form>
+         <fieldset>
+         <legend>Magazines:</legend>   
         <label>First name :</label><input type="text" name="firstname"/><br>
         <label>Last name :</label><input type="text" name="lastname"/><br>
         <label>Email :</label><input type="email" name="email"/><br>
         <label>Gender :</label><input type="radio" name="Gender"  value="male"/> Male  <input type="radio" name="Gender"  value="male"/> Male       
-
+            </fieldset>
         </form>
-        <h1>Magazines</h1>
+       
         <form>
+            <fieldset>
+            <legend>Magazines:</legend>     
             <input type="checkbox" value="1"/>Stavanger Aftebblad <br>
             <input type="checkbox" value="2"/>Teknisk Ukeblad <br>
             <input type="checkbox" value="3"/>So Rg or <br>
             <input type="checkbox" value="4"/>Familien <br>
+            </fieldset>
         </form>
-        <h1>Subscription</h1>
-
+       
+        
         <label for="period">Period :</label>
       <select id="period" name="period"> 
             <option value="6m">6 months</option>
@@ -197,6 +202,7 @@
             <option value="18m">18 months</option>
             <option value="24m">24 months</option>
             </select>
+             
             <form>
             <input type="submit" value="Subscription"/><br>
             </form>
@@ -273,15 +279,20 @@
                 <label>salary*</label><input type="text" name="name">
                 <label>photo</label><input type="file" name="name">
                 <label>resume*</label><input type="file" name="name">
+                <textarea name="message" rows="10" cols="20">
+                Reference.
+                </textarea>
             </form><br>
 
 
             <form>
-                <p style="font-size: large;">Benefits</p>
+                <fieldset>
+                <legend>Personalia:</legend>
                 <input type="checkbox" value="1"/>Health insurance <br>
                 <input type="checkbox" value="2"/>401k plan<br>
                 <input type="checkbox" value="3"/>Paid Vacation <br>
                 <input type="checkbox" value="4"/>paid sick leave <br>
+                </fieldset>
             </form>
             <form>
                 <input type="submit" name="submit"/>
